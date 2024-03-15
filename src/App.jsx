@@ -1,9 +1,10 @@
 import Home from "./page/Home";
+import './App.css'
 
 const  App = () => {
 
   return (
-  <div className="text-light-dark-400 min-h-screen">
+  <div className="container">
     <Home />
   </div>
   )

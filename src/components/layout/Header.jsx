@@ -1,24 +1,25 @@
+import '../../assets/styles/header.css';
 import sunLogo from '../../img/sun-icon.png';
 
 const Header = () => {
     return (
-    <div className='flex tracking-widest justify-around sticky top-0 z-10 px-2.5 border-b h-12'>
-        <a href='#' className=" hover:bg-gray-200 w-auto flex flex-row items-center cursor-pointer text-base font-semibold px-4">Mathieu Moye</a>
-        <div className="flex flex-row justify-center items-center text-sm">
+    <div className='header-container'>
+        <a href='#' className="header-title hover:bg-gray-200">Mathieu Moye</a>
+        <div className=" header-nav">
             <nav>
-                <ul className=" w-auto flex flex-row m-auto justify-center self-center">
-                    <a className="hover:bg-gray-200 px-7 text-base" href="#"><li>Skills</li></a>
-                    <a className="hover:bg-gray-200 px-7 text-base" href="#"><li>Projets</li></a>
-                    <a className="hover:bg-gray-200 px-7 text-base" href="#"><li>Formations</li></a>
-                    <a className="hover:bg-gray-200 px-7 text-base" href="#"><li>Curriculum vitæ</li></a>
+                <ul className=" header-list">
+                    <a className="header-link hover:bg-gray-200" href="#"><li>Skills</li></a>
+                    <a className="header-link hover:bg-gray-200" href="#"><li>Projets</li></a>
+                    <a className="header-link hover:bg-gray-200" href="#"><li>Formations</li></a>
+                    <a className="header-link hover:bg-gray-200" href="#"><li>Curriculum vitæ</li></a>
                 </ul>
             </nav>
         </div>
-        <div className='flex items-center'>
-            <button><img className='w-6 h-6 hover:bg-gray-200' src={sunLogo} alt='Sun Logo'/></button>
+        <div className='header-div-logo'>
+            <button><img className=' header-sun hover:bg-gray-200' src={sunLogo} alt='Sun Logo'/></button>
         </div>
     </div>  
-    )
-}
+    );
+};
 
 export default Header;

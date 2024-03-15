@@ -1,0 +1,38 @@
+[
+	{
+		"name": "HTML",
+		"value": "#f00"
+	},
+	{
+		"name": "CSS",
+		"value": "#0f0"
+	},
+	{
+		"name": "SCSS",
+		"value": "#00f"
+	},
+	{
+		"name": "Javascript",
+		"value": "#0ff"
+	},
+	{
+		"name": "React",
+		"value": "#f0f"
+	},
+	{
+		"name": "Redux",
+		"value": "#ff0"
+	},
+    {
+        "name": "Nodejs"
+    },
+    {
+        "name": "Express"
+    },
+    {
+        "name": "SQL"
+    },
+    {
+        "name": "Github"
+    }
+]

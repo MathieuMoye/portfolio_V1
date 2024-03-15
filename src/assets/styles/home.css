@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 647px; 
+     
+}
+
+.home-centered {
+    margin: auto 155px;
+}
+
+
+.home-title {
+    font-size: 4.3rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+}
+
+.home-desc {
+    margin-right: 300px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding: 0.6rem 0;
+}
+
+.home-div-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mail-logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
