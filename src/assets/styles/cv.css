@@ -1,0 +1,21 @@
+.cv-container {
+    height: 647px; 
+    width: 100%;
+}
+
+.cv-title {
+   text-align: center;
+   font-size: 4.3rem;
+   margin-top: 5rem;
+}
+
+.cv-link {
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.cv-link:hover {
+    background-color: black;
+    color: white;
+}

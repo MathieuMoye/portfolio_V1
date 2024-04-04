@@ -4,6 +4,7 @@ import githubLogo from '../img/github_logo.png';
 import linkedinLogo from '../img/linkedin_logo.jpg';
 import mailLogo from '../img/mail_logo.png';
 import '../assets/styles/home.css';
+import { skills } from '../assets/json/skills'
 
 const Home = () => {
     return (
@@ -26,7 +27,7 @@ const Home = () => {
                         <a href='https://www.linkedin.com/in/mathieumoye/'><img className=' home-logo'src={linkedinLogo} /></a>
                         <a href='mailto:moye.mathieu@gmail.com'><img className='mail-logo' src={mailLogo} /></a>
                     </div>
-                    <Carousel />
+                    <Carousel skills={skills}/>
                 </div>
               
             </div>

@@ -1,11 +1,23 @@
+/* eslint-disable react/jsx-key */
 import '../../assets/styles/carousel.css';
 
-const Carousel = () => {
+
+const Carousel = ({ skills }) => {
     return (
         <div className='carousel-container'>
            <div className='carousel'>
-                <div className='carousel-logo'>
-                </div>
+            {
+                skills.map((skill) => {
+                    return (
+                <div >  
+                    <img  className='carousel-logo' key={skill.name} src={skill.img} alt={skill.name}/>
+                </div>  
+                    )
+                 
+                })
+            }
+                
+                
             
            </div>
         </div>

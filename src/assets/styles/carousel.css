@@ -1,5 +1,20 @@
 .carousel-container {
     border: 2px solid #e1e1e1;
     border-radius: 12px;
-    height: 8rem;
+    height: 100px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 }
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-logo {
+    height: 5.6rem;
+    margin-top: 0.3rem;
+}
+
+
+

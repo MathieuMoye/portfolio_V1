@@ -1,23 +1,38 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import Skills from './page/Skills.jsx'
+import Projects from './page/Projects.jsx'
+import Formations from './page/Formations.jsx'
+import Curriculum from './page/Curriculum.jsx'
+
 import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Home from './page/Home.jsx';
-
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-    children: [
-      {
-        path: '/',
-        element: <Home />,
-      },
-    ]
+    element: <App />
+  },
+  {
+    path: '/skills',
+    element: <Skills />
+  },
+  {
+    path: '/projets',
+    element: <Projects />
+  },
+  {
+    path: '/formations', 
+    element: <Formations />
+  },
+  {
+    path: '/CV',
+    element: <Curriculum />
   }
+ 
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
