@@ -6,10 +6,13 @@
 .cv-title {
    text-align: center;
    font-size: 4.3rem;
-   margin-top: 5rem;
+   font-weight: 500;
 }
 
 .cv-link {
+    display: block;
+    margin-left: 687px;
+    margin-top: 245px;
     border: 1px solid gray;
     padding: 7px;
     border-radius: 25px;
