@@ -1,0 +1,39 @@
+.skills-container {
+    height: 647px; 
+    width: 100%;
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 4.3rem;
+    font-weight: 500;
+ }
+
+.skills-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills-list {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    height: 4rem;
+    width: 17rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.skills-img {
+    width: 10rem;
+    height: 9rem;
+    margin-left: 7.5rem;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 50%;
+}
