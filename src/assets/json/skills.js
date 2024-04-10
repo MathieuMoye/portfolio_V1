@@ -11,38 +11,47 @@ import API from "../../img/API-logo.png"
  export const skills =  [
 	{
 		"name": "HTML",
-		"img": HTML
+		"img": HTML,
+		"stack": 'frontend'
 	},
 	{
 		"name": "CSS",
-		"img": CSS
+		"img": CSS,
+		"stack": 'frontend'
 	},
 	{
 		"name": "Javascript",
-		"img": Javascript
+		"img": Javascript,
+		'stack': 'frontend'
 	},
 	{
 		"name": "React",
-		"img": React
+		"img": React,
+		'stack': 'frontend'
 	},
 	{
 		"name": "Redux",
-		"img": Redux
+		"img": Redux,
+		'stack': 'frontend'
 	},
     {
         "name": "Nodejs",
-		"img": Node
+		"img": Node,
+		'stack': 'backend'
     },
     {
         "name": "Express",
-		"img": Express
+		"img": Express,
+		'stack': 'backend'
     },
     {
         "name": "SQL",
-		"img": Postgres
+		"img": Postgres,
+		'stack': 'backend'
     },
 	{
 		"name": "API Rest",
-		"img": API
+		"img": API,
+		'stack': 'frontend'
 	}
 ]
